@@ -37,6 +37,11 @@
     border-radius: 50px;
     }
     
+    #barn {
+
+    -webkit-filter: brightness(1.2);
+    filter: brightness(1.2);
+    }
     
     #map {
     width: 100%;
@@ -44,6 +49,7 @@
     }
     </style>
     
+
     <title>M &amp; L 2018</title>
   </head>
   <body>
@@ -104,35 +110,50 @@
     </div>
     
     <div id="date" class="container text-center">
-        <h3>Oct 6 2018</h2>
-        <h4>Ohio Wildlife Center</h4>
+        <h1 class="display-4">are getting <strong>married!</strong></h1>
+        <h2>Oct 6, 2018 @</h2>
+        <h4><em>The Ohio Wildlife Center, Powell, Ohio</em></h4>
     </div>
     
     
     <div class="container">
       <div class="row">
         <div id="venue" class="col-sm-4">
-            <div class="card"
-                
-                  <h3>Our wedding</h3>
+            <div class="card h-100">
+                <img id="barn" class="card-img-top" src="res\barn_med.jpg">
+            <div class="card-body">
+                  <h3>Venue</h3>
                   <p>We are excited to welcome friends and family to our wedding in Powell, Ohio</p>
-                  <p>Just outside Columbus, the venue is a restored barn at the Ohio Wildlife Center</p>
-                  
+                  <p>Just northwest of Columbus, the venue is a restored barn at the <strong>Ohio Wildlife Center</strong></p>
+                  <h4><a href="https://www.google.com.sg/maps/place/Ohio+Wildlife+Center/@40.1442272,-83.1831194,13z/data=!4m8!1m2!2m1!1sohio+wildlife+center,+powell+ohio!3m4!1s0x0:0x7de0bfc391441a5a!8m2!3d40.1763813!4d-83.139714">6131 Cook Rd, Powell, OH 43065, USA</a><h4>
+             </div>     
             </div>
         </div>
         <div class="col-sm-4">
-          <h3>Details</h3>
-          <p>lorum ipsum</p>
-          <p>Ut enim ad..</p>
+            <div class="card h-100">
+                <img class="card-img-top" src="res\imagecap.svg">
+            <div class="card-body">
+                  <h3>Details</h3>
+                  <p>More details here...</p>
+                  <p>hotel....</p>
+                  <p>contact....</p>
+             </div>     
+            </div>
         </div>
         <div class="col-sm-4">
-          <h3>RSVP</h3> 
-          <p>Please respond by filling out this survey</p>
-          <p><</p>
+            <div class="card h-100">
+                <img class="card-img-top" src="res\imagecap.svg">
+            <div class="card-body">
+                
+                  <h3>RSVP</h3>
+                  <p>Please RSVP at the form below.</p>
+                  <p>LINK TO FORM</p>
+             </div>     
+            </div>
         </div>
       </div>
     </div>
- 
+-->
        <div class="container justify-content-center">
         <div id="map""></div>
     <script src="js/mapleaflet.js"</script>
