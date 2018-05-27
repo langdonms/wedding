@@ -27,19 +27,25 @@
            <!-- light beige color FFFBB7--> 
            <!-- light blush color fdf5e7 -->
        }
-       
-       h1,h2 {
+       h1 {
            font-family: 'Cormorant Garamond', serif;
-           font-size: 84px;
+           font-size: 8vw;
            font-variant: small-caps;
        }
-       
+       h2 {
+           font-family: 'Cormorant Garamond', serif;
+           font-size: 6vw;
+           font-variant: small-caps;
+       }
        h3 {
            font-family: 'Cormorant Garamond', serif;
-           font-size: 64px;
            font-variant: small-caps;
        }
        
+       h4 {
+           font-family: 'Proza Libre', sans-serif;
+
+       }
        .container {
          padding: 15px 12px;
        }
@@ -66,6 +72,10 @@
        border-radius: 10px; 
        }
        
+       .accoms {
+       <!--background-color: #B46648;-->
+       }
+       
        }
        .padding-0{
            padding-right:0;
@@ -89,7 +99,7 @@
     <title>M &amp; L</title>
 </head>
 <body>
-    <div class="container text-center">
+    <div class="container-fluid text-center">
         <h1><strong>Madeline</strong> & <strong>Langdon</strong></h1>
     </div>
     <div class="container"><img alt="photo of us at Versailles" class="img-fluid" src="pics/us_vers.jpg"></div>
@@ -115,16 +125,16 @@
                 <div class="card h-100">
                     <img class="card-img-top" src="res/imagecap.svg">
                     <div class="card-body">
-                        <h3>Details</h3>
-                        <p>More details here...</p>
-                        <p>hotel....</p>
+                        <h3>Details </h3>
+                        <p>Registry.</p>
+                        <p>more details....</p>
                         <p>contact....</p>
                     </div>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="card h-100">
-                    <img class="card-img-top" src="res/noun_490034_cc.png">
+                    <img class="card-img-top" src="res/noun_490034.png" >
                     <div class="card-body">
                         <h3>RSVP</h3>
                         <p>Please RSVP at the form below.</p>
@@ -133,16 +143,18 @@
                 </div>
             </div>
         </div>
-    </div><!-- accoms -->
-    <div class="container">
-        <div class="container text-center" id="accoms">
+    </div>
+    
+    <!-- accoms -->
+    <div class="container accoms" >
+        <div class="container text-center">
             <h2>Accomodations</h2>
             <h4><b>Home2Suites</b> and <b>Embassy Suites</b></h4>
             <p>Both hotels are next to each other just off I-270,<br>
             about 15 minutes away from the venue.<br>
             (exit 17A northbound, 17B southbound)</p>
         </div>
-    </div>
+    
     <div class="container colbackground">
         <div class="row">
             <div class="col-sm-6">
@@ -166,7 +178,12 @@
                 </div>
             </div>
         </div>
-    </div><!--background div --><!-- Optional JavaScript -->
+    </div>
+    </div>
+   
+    
+    
+<!--background div --><!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
     </script> 
