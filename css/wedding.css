@@ -22,7 +22,7 @@
        h4 {
            font-family: 'Proza Libre', sans-serif;
 
-       }
+
        .container {
          padding: 15px 12px;
        }
@@ -42,6 +42,7 @@
        
        .btn-primary {
        background-color: #4E0003;
+       padding-bottom: 14px;
        }
        .colbackground {
        background-color: #B46648;
