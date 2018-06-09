@@ -28,7 +28,9 @@
        }
        
        .img-fluid {
+       border-style: solid;
        border-radius: 50px;
+       border-color: #D38B37;
        }
        #barn {
        -webkit-filter: brightness(1.2);
