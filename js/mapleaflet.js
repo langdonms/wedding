@@ -1,4 +1,4 @@
-    var map = L.map('map',
+   var map = L.map('map',
         {
         scrollWheelZoom:false
         }
