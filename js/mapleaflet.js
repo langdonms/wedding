@@ -26,7 +26,7 @@ var heartIcon = L.icon({
     iconAnchor:   [10, 4], // point of the icon which will correspond to marker's location
 });        
 
-var venuemarker = L.marker([40.1766,-83.1392517,],
+var venuemarker = L.marker([40.176619048, -83.13815832,],
         {title: "Ohio Wildlife Center",
         icon: heartIcon
         }
@@ -40,6 +40,3 @@ var venuemarker = L.marker([40.1766,-83.1392517,],
         })
         .bindPopup('<strong>Hotels</strong>').openPopup()
         .addTo(map);
-
-
-        
